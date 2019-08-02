@@ -15,10 +15,11 @@ h2 {
 }*/
 
 .container-fluid {
+    overflow: hidden;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    margin-left: 96px;
+    margin-left: 0 auto;
 }
 
 .card {
@@ -43,11 +44,11 @@ h2 {
 .profile {
     width: 310px;
     height: 465px;
-    object-fit: contain;
     box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.16);
-    /* align-content: right;
-    justify-content: flex-end;*/
+     align-content: right;
+    justify-content: flex-end;
     float: right;
+    outline: 1px solid red;
 }
 
 .resume-box {
@@ -55,7 +56,6 @@ h2 {
     width: 310px;
     height: 465px;
     outline: 1px solid blue;
-    object-fit: contain;
     box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 

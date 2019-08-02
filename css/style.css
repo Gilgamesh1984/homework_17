@@ -48,8 +48,15 @@ h2 {
     /* align-content: right;
     justify-content: flex-end;*/
     float: right;
+}
 
-   
+.resume-box {
+    float: left;
+    width: 310px;
+    height: 465px;
+    outline: 1px solid blue;
+    object-fit: contain;
+    box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.16);
 }
 
 html {

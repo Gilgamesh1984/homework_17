@@ -25,10 +25,20 @@ h2 {
     margin-bottom: 25px !important;
     max-width: 22rem;
 }
-
-.btn-primary {
-    color: #0CE813;
+.card-block {
+    flex: 1 1 auto;
+    padding: 1.25rem;
 }
+.card-body {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+}
+
 
 .profile {
     width: 310px;
@@ -45,15 +55,8 @@ h2 {
 html {
     background-color: #e0e0e0;
 }
-.col-md-12 {
-    justify-content: flex-end;
-   /* margin: left auto;*/
 
-}
-
-.card p{
-    height: 100px;
-}
+/*
 @media screen and (max-width: 767px){
     .card{
         margin: auto;
@@ -61,6 +64,7 @@ html {
 }
 
 @media (max-width: 1160px) {
-    .card p {height:500px;
+    .card p {height:200px;
     }
 }
+*/

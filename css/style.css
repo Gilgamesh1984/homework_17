@@ -3,23 +3,26 @@ h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
+    text-align: center;
 }
 
 /*.jumbotron {
     background-color: #61D7FF;
 }*/
 
-.container-fluid {
-    overflow: hidden;
+.container {
+    /*overflow: hidden;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    margin-left: 0 auto;
+    margin-left: 0 auto;*/
+    position: relative;
 }
 
 .card {
@@ -42,36 +45,44 @@ h2 {
 
 
 .profile {
-    width: 310px;
+    /*width: 310px;
     height: 465px;
     box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.16);
      align-content: right;
     justify-content: flex-end;
     float: right;
-    outline: 1px solid red;
+    outline: 1px solid red;*/
+
+    justify-content: flex-end;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50%;
+    background-color: teal;
 }
 
-.resume-box {
-    float: left;
+#resume-box {
+    /*float: left;
     width: 310px;
     height: 465px;
     outline: 1px solid blue;
-    box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 5px 3px 6px 0 rgba(0, 0, 0, 0.16);*/
+    width: 50%;
+    outline: 1px solid red;
 }
 
 html {
     background-color: #e0e0e0;
 }
 
-/*
-@media screen and (max-width: 767px){
-    .card{
-        margin: auto;
-    }
-}
+/*Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-@media (max-width: 1160px) {
-    .card p {height:200px;
-    }
-}
-*/
+/*Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
